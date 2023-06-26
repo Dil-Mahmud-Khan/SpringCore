@@ -13,17 +13,6 @@
 	
 	">
 
-	<bean class="com.geeksforgeeks.SpringCore.Student" name="student1">
-		<property name="studentId">
-			<value>23</value>
-		</property>
-		<property name="studentName">
-			<value>Dil</value>
-		</property>
-		<property name="studentAddress" value="Tangail">
-			
-		</property>
-	</bean>
-	
+	<context:component-scan base-package="com.springcore.spel"></context:component-scan>
 
 </beans>
